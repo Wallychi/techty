@@ -1,16 +1,18 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
+import Main from '../components/Main'
 
 const Home = () => {
   return (
 
     <div className='flex flex-col justify-between min-w-full h-screen'>
-      <div className='bg-green-100 h-20'>
+      <div className='bg-[#F0F8FF]'>
         <NavBar  />
+        <Main />
       </div>
       <div className=''>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   )
