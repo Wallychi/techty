@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import Main from '../components/Main'
+import Sub_Main from '../components/Sub_Main'
 
 const Home = () => {
   return (
@@ -10,6 +11,9 @@ const Home = () => {
       <div className='bg-[#F0F8FF]'>
         <NavBar  />
         <Main />
+      </div>
+      <div>
+        <Sub_Main />
       </div>
       <div className=''>
         {/* <Footer /> */}

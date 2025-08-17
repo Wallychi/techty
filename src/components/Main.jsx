@@ -20,24 +20,24 @@ const Main = () => {
                 </div>
                 <div className='flex flex-col gap-5'>
                     <div className='bg-white p-0.5 rounded-full'>
-                        <img src='/public/images/Frame 14.png' alt='Man smiling' className='w-[600px]' />
+                        <img src='/images/Frame 14.png' alt='Man smiling' className='w-[600px]' />
                     </div>
                     <div className='flex gap-2 items-center'>
-                        <img src='/public/icons/Star.png' alt='Green star' />
+                        <img src='/icons/Star.png' alt='Green star' />
                         <p className='font-bold text-2xl'>Trustpilot</p>
                         <div className='flex'>
-                            <img src='/public/icons/Frame.png' alt='Rating star' />
-                            <img src='/public/icons/Frame.png' alt='Rating star' />
-                            <img src='/public/icons/Frame.png' alt='Rating star' />
-                            <img src='/public/icons/Frame.png' alt='Rating star' />
-                            <img src='/public/icons/Frame.png' alt='Rating star' />
+                            <img src='/icons/Frame.png' alt='Rating star' />
+                            <img src='/icons/Frame.png' alt='Rating star' />
+                            <img src='/icons/Frame.png' alt='Rating star' />
+                            <img src='/icons/Frame.png' alt='Rating star' />
+                            <img src='/icons/Frame.png' alt='Rating star' />
                         </div>
                         <p>4900 + 5 stars</p>
                     </div>
                 </div>
             </div>
             <hr className='text-gray-300' />
-            <div className='flex items-center'>
+            <div className='flex items-center py-5 pb-15'>
                 <p className='font-semibold w-[300px] text-xl'>
                     Thousands of<br /> businesses use Techty
                 </p>
