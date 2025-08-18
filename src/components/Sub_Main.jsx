@@ -22,8 +22,8 @@ const Sub_Main = () => {
           }}
           className={({ isActive }) =>
             isActive
-              ? "flex items-center gap-3 pb-7"
-              : "flex items-center gap-3 pb-7"
+              ? "flex items-center gap-3 pb-7 cursor-pointer"
+              : "flex items-center gap-3 pb-7 cursor-pointer"
           }
         >
           <h1 className="text-6xl font-extrabold">01</h1>
@@ -38,8 +38,8 @@ const Sub_Main = () => {
           }}
           className={({ isActive }) =>
             isActive
-              ? "flex items-center gap-3 pb-7"
-              : "flex items-center gap-3 pb-7"
+              ? "flex items-center gap-3 pb-7 cursor-pointer"
+              : "flex items-center gap-3 pb-7 cursor-pointer"
           }
         >
           <h1 className="font-extrabold text-6xl">02</h1>
@@ -54,8 +54,8 @@ const Sub_Main = () => {
           }}
           className={({ isActive }) =>
             isActive
-              ? "flex items-center gap-3 pb-7"
-              : "flex items-center gap-3 pb-7"
+              ? "flex items-center gap-3 pb-7 cursor-pointer"
+              : "flex items-center gap-3 pb-7 cursor-pointer"
           }
         >
           <h1 className="font-extrabold text-6xl">03</h1>
@@ -205,9 +205,6 @@ const Sub_Main = () => {
         )}
       </div>
 
-      <div className="flex w-full h-screen">
-        <div className="flex items-center bg-green -500"></div>
-      </div>
     </section>
   );
 };
