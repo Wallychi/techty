@@ -4,14 +4,13 @@ import Footer from '../components/Footer'
 
 const Service = () => {
   return (
-    <div className='flex flex-col justify-between min-w-full h-screen'>
-      <div className='bg-green-100 h-20'>
+    <section className='flex flex-col justify-between min-w-full h-screen'>
+      <div className='bg-[#F0F8FF]'>
         <NavBar />
+        
       </div>
-      <div className=''>
-        <Footer />
-      </div>
-    </div>
+
+    </section>
   )
 }
 

@@ -20,13 +20,17 @@ const Sub_Main = () => {
           onClick={() => {
             setFirst(true), setSecond(false), setThird(false);
           }}
-          className={({ isActive }) =>
-            isActive
-              ? "flex items-center gap-3 pb-7 cursor-pointer"
+          className={
+            first
+              ? "flex items-center gap-3 pb-7 cursor-pointer border-b-3 border-green-500"
               : "flex items-center gap-3 pb-7 cursor-pointer"
           }
         >
-          <h1 className="text-6xl font-extrabold">01</h1>
+          <h1 className={
+            first 
+            ? "font-extrabold text-6xl text-green-500"
+            : "font-extrabold text-6xl"
+          }>01</h1>
           <div className="flex flex-col gap-2 ">
             <p className="font-semibold text-lg">Collect Ideas</p>
             <p>Creating or improving products to meet our user needs.</p>
@@ -36,13 +40,17 @@ const Sub_Main = () => {
           onClick={() => {
             setFirst(false), setSecond(true), setThird(false);
           }}
-          className={({ isActive }) =>
-            isActive
-              ? "flex items-center gap-3 pb-7 cursor-pointer"
+          className={
+            second
+              ? "flex items-center gap-3 pb-7 cursor-pointer border-b-3 border-green-500"
               : "flex items-center gap-3 pb-7 cursor-pointer"
           }
         >
-          <h1 className="font-extrabold text-6xl">02</h1>
+          <h1 className={
+            second 
+            ? "font-extrabold text-6xl text-green-500"
+            : "font-extrabold text-6xl"
+          }>02</h1>
           <div className="flex flex-col gap-2">
             <p className="font-semibold text-lg">Data Analysis</p>
             <p>Creating or improving products to meet our user needs.</p>
@@ -52,13 +60,17 @@ const Sub_Main = () => {
           onClick={() => {
             setFirst(false), setSecond(false), setThird(true);
           }}
-          className={({ isActive }) =>
-            isActive
-              ? "flex items-center gap-3 pb-7 cursor-pointer"
+          className={
+            third
+              ? "flex items-center gap-3 pb-7 cursor-pointer border-b-3 border-green-500"
               : "flex items-center gap-3 pb-7 cursor-pointer"
           }
         >
-          <h1 className="font-extrabold text-6xl">03</h1>
+          <h1 className={
+            third 
+            ? "font-extrabold text-6xl text-green-500"
+            : "font-extrabold text-6xl"
+          }>03</h1>
           <div className="flex flex-col gap-2">
             <p className="font-semibold text-lg">Analyze Products</p>
             <p>Creating or improving products to meet our user needs.</p>
