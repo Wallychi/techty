@@ -12,7 +12,7 @@ const Sub_Main = () => {
         <p className="text-center text-5xl font-extrabold">
           Empower your business
           <br /> with cutting-edge{" "}
-          <span className="text-green-500">solutions</span>
+          <span className="text-[#28D08A]">solutions</span>
         </p>
       </div>
       <div className="flex mx-15 border-b-1 border-b-gray-300 mb-10 gap-2">
@@ -22,13 +22,13 @@ const Sub_Main = () => {
           }}
           className={
             first
-              ? "flex items-center gap-3 pb-7 cursor-pointer border-b-3 border-green-500"
+              ? "flex items-center gap-3 pb-7 cursor-pointer border-b-3 border-[#28D08A]"
               : "flex items-center gap-3 pb-7 cursor-pointer"
           }
         >
           <h1 className={
             first 
-            ? "font-extrabold text-6xl text-green-500"
+            ? "font-extrabold text-6xl text-[#28D08A]"
             : "font-extrabold text-6xl"
           }>01</h1>
           <div className="flex flex-col gap-2 ">
@@ -42,13 +42,13 @@ const Sub_Main = () => {
           }}
           className={
             second
-              ? "flex items-center gap-3 pb-7 cursor-pointer border-b-3 border-green-500"
+              ? "flex items-center gap-3 pb-7 cursor-pointer border-b-3 border-[#28D08A]"
               : "flex items-center gap-3 pb-7 cursor-pointer"
           }
         >
           <h1 className={
             second 
-            ? "font-extrabold text-6xl text-green-500"
+            ? "font-extrabold text-6xl text-[#28D08A]"
             : "font-extrabold text-6xl"
           }>02</h1>
           <div className="flex flex-col gap-2">
@@ -62,13 +62,13 @@ const Sub_Main = () => {
           }}
           className={
             third
-              ? "flex items-center gap-3 pb-7 cursor-pointer border-b-3 border-green-500"
+              ? "flex items-center gap-3 pb-7 cursor-pointer border-b-3 border-[#28D08A]"
               : "flex items-center gap-3 pb-7 cursor-pointer"
           }
         >
           <h1 className={
             third 
-            ? "font-extrabold text-6xl text-green-500"
+            ? "font-extrabold text-6xl text-[#28D08A]"
             : "font-extrabold text-6xl"
           }>03</h1>
           <div className="flex flex-col gap-2">
