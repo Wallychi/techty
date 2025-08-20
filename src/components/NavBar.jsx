@@ -5,7 +5,7 @@ import Button from './Button'
 const NavBar = () => {
     return (
 
-        <div className='flex items-center justify-between w-full px-15 py-10 font-space'>
+        <div className='flex items-center justify-between w-full px-15 py-5 font-space'>
             <div className='flex items-center gap-2'>
                 <img src='/icons/SVG.png' alt='' />
                 <div className='font-extrabold text-4xl'>Techty</div>
