@@ -8,7 +8,7 @@ const Blog = () => {
         <NavBar />
         <div className='flex flex-col bg-[#F1F1F1] gap-15 pb-25'>
           <div className='flex flex-col items-center px-15 py-10 gap-7'>
-          <h1 className='text-4xl font-semibold'>Our Blog</h1>
+          <h1 className='text-5xl font-semibold'>Our Blog</h1>
           <p className='text-center text-[#6F7681] leading-6'>We're constantly pushing the boundaries of what's<br />
            possible and seeking new ways to improve our<br /> services.</p>
            <div className='flex bg-white rounded-xl items-center gap-5'>

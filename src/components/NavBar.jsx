@@ -11,11 +11,11 @@ const NavBar = () => {
                 <div className='font-extrabold text-4xl'>Techty</div>
             </div>
             <div className='flex items-center gap-15 '>
-                <NavLink to={'/'} >Home</NavLink>
-                <NavLink to={'/about'}>About</NavLink>
-                <NavLink to={'/service'} >Service</NavLink>
-                <NavLink to={'/blog'} >Blog</NavLink>
-                <NavLink to={'/contact'}>Contact</NavLink>
+                <NavLink to={'/'} className={({ isActive}) => isActive ? "text-red-600 font-semibold underline  underline-offset-8" : "font-normal text-black"}>Home</NavLink>
+                <NavLink to={'/about'} className={({ isActive}) => isActive ? "text-red-600 font-semibold underline underline-offset-8" : "font-normal text-black"}>About</NavLink>
+                <NavLink to={'/service'} className={({ isActive}) => isActive ? "text-red-600 font-semibold underline underline-offset-8" : "font-normal text-black"} >Service</NavLink>
+                <NavLink to={'/blog'} className={({ isActive}) => isActive ? "text-red-600 font-semibold underline underline-offset-8" : "font-normal text-black"} >Blog</NavLink>
+                <NavLink to={'/contact'} className={({ isActive}) => isActive ? "text-red-600 font-semibold underline underline-offset-8" : "font-normal text-black"}>Contact</NavLink>
                 <Button name='Request a Free Demo' style={"bg-black text-white rounded-md font-semibold hover:bg-green-500"} />
             </div>
         </div>
