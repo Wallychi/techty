@@ -61,8 +61,8 @@ const Footer = () => {
                     <p className='text-lg lg:w-full'>Subscribe to our newletter to get our news delivered to you.</p>
 
                     <form className='relative'>
-                        <input type='email' placeholder='Email address' className='p-3 border-1 rounded-xl w-[350px]'  />
-                        <Button name='Join' style={'bg-black absolute top-[1px] py-[12px] right-24 lg:-right-10 rounded-xl text-white lg:hover:bg-green-500'} />
+                        <input type='email' placeholder='Email address' className='p-3 pr-15 border-1 rounded-xl w-3/4 lg:w-[350px]'  />
+                        <Button name='Join' style={'bg-black absolute top-[1px] py-[12px] right-1/4 lg:-right-10 rounded-xl text-white lg:hover:bg-green-500'} />
                     </form>
                 </div>
             </div>
