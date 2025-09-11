@@ -11,19 +11,23 @@ import Updates from '../components/Updates'
 const Home = () => {
   return (
 
-    <div className='flex flex-col justify-between min-w-full h-screen'>
-      <div className='bg-[#F0F8FF]'>
-        <NavBar  />
-        <Main />
+    <div className='flex flex-col'>
+      <div className='bg-[#F0F8FF] flex flex-col'>
+        <div className='fixed bg-[#F0F8FF] w-full z-50'>
+          <NavBar />
+        </div>
+        <div className='mt-15'>
+          <Main />
+        </div>
       </div>
       <div>
         <Sub_Main />
         <Potential />
       </div>
-        <Solutions />
-        <DataFetch />
-        <Updates />
-        <Footer />
+      <Solutions />
+      <DataFetch />
+      <Updates />
+      <Footer />
     </div>
   )
 }

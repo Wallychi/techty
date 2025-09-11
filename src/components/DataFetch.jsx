@@ -42,10 +42,9 @@ const DataFetch = () => {
     }
 
     return (
-        <section className="w-full font-space mt-20 ">
-            <h1 className="text-5xl font-bold text-center">
-                Read what the <span className="text-green-500">customers</span>
-                <br /> are saying about us.{" "}
+        <section className="flex flex-col items-center justify-center w-full font-space mt-10 lg:mt-20">
+            <h1 className="text-4xl w-100 lg:w-125 lg:text-5xl font-bold text-center">
+                Read what the <span className="text-green-500">customers</span> are saying about us.
             </h1>
             {loading ? (
                 <div className="flex h-screen items-center justify-center">
@@ -60,8 +59,8 @@ const DataFetch = () => {
                     />
                 </div>
             ) : (
-                <div className="flex flex-col gap-2 items-center px-15 mt-10">
-                    <div className="grid grid-cols-3 gap-5">
+                <div className="flex flex-col gap-2 items-center px-5 lg:px-15 mt-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
                         {posts.map((post, index) => (
                             <div
                                 key={index}

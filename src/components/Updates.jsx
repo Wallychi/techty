@@ -2,9 +2,9 @@ import React from 'react'
 
 const Updates = () => {
   return (
-    <section className='flex flex-col items-center w-full mt-30 px-15 py-20 bg-[#F0F8FF] font-space'>
-        <h1 className='text-5xl font-bold text-center'>Here's our latest<br /> updates from the <span className='text-green-500'>news</span></h1>
-        <div className='grid grid-cols-3 gap-5 mt-10'>
+    <section className='flex flex-col items-center w-full mt-10 lg:mt-30 px-5 lg:px-15 py-10 lg:py-20 bg-[#F0F8FF] font-space'>
+        <h1 className='text-4xl lg:text-5xl font-bold text-center'>Here's our latest<br /> updates from the <span className='text-green-500'>news</span></h1>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5 lg:mt-10'>
             <div className='flex flex-col gap-3 bg-white rounded-2xl pb-5'>
                 <img src='/images/updates 1.png' alt='Image of a laptop' />
                 <p className='text-[#4E4E4E] px-4'>May 30</p>

@@ -8,17 +8,17 @@ import LogoFour from './LogoFour'
 
 const Main = () => {
     return (
-        <section className='flex flex-col font-space px-15 mt-5 gap-20'>
+        <section className='flex flex-col font-space px-5 lg:px-15 mt-5 gap-12 lg:gap-20'>
             <div className='flex items-center gap-2'>
                 <div className='flex flex-col gap-5'>
-                    <h1 className='text-6xl font-bold'>Secure <span className='text-green-500'>business</span><br /> with Techty security</h1>
-                    <p className='text-[#4E4E4E] text-xl'>We have considered our solutions to support every stage of your<br /> growth. We are the fastest and easiest way to launch an<br /> attractive and feature-complete SaaS showcase.</p>
+                    <h1 className='text-6xl font-semibold lg:font-bold '>Secure <span className='text-green-500'>business</span><br /> with Techty security</h1>
+                    <p className='text-[#4E4E4E] text-left text-lg lg:text-xl lg:w-143'>We have considered our solutions to support every stage of your growth. We are the fastest and easiest way to launch an attractive and feature-complete SaaS showcase.</p>
                     <div className='flex gap-5 mt-5'>
-                        <Button name='Request a Free Demo' style={"bg-black text-white hover:bg-green-500"} />
-                        <Button name='Hire an expert' style={"bg-black text-white hover:bg-green-500 px-7"} />
+                        <Button name='Request a Free Demo' style={"bg-black text-white lg:hover:bg-green-500"} />
+                        <Button name='Hire an expert' style={"bg-black text-white lg:hover:bg-green-500 px-7"} />
                     </div>
                 </div>
-                <div className='flex flex-col gap-5'>
+                <div className='hidden lg:flex flex-col gap-5'>
                     <div className='bg-white p-0.5 rounded-full'>
                         <img src='/images/Frame 14.png' alt='Man smiling' className='w-[600px]' />
                     </div>
@@ -37,9 +37,9 @@ const Main = () => {
                 </div>
             </div>
             <hr className='text-gray-300' />
-            <div className='flex items-center py-5 pb-15'>
-                <p className='font-semibold w-[300px] text-xl'>
-                    Thousands of<br /> businesses use Techty
+            <div className='flex flex-col lg:flex-row lg:items-center py-5 pb-15'>
+                <p className='font-bold lg:font-semibold lg:w-[300px] lg:text-xl text-2xl mt-[-30px] lg:mt-0 mb-7 lg:mb-0'>
+                    Thousands of businesses use Techty
                 </p>
                 <Marquee >
                     <LogoOne />
