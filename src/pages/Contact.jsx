@@ -6,24 +6,26 @@ import Button from '../components/Button'
 const Contact = () => {
   return (
     <div className='flex flex-col font-space'>
-      <NavBar />
-      <div className='flex flex-col bg-[#F1F1F1] gap-5 pb-15 pt-10 '>
-        <div className='flex flex-col items-center px-15 py-5 gap-5'>
-          <h1 className='text-5xl font-semibold'>Contact Us</h1>
-          <p className='text-center text-[#6F7681] leading-6'>We're constantly pushing the boundaries of what's<br />
-            possible and seeking new ways to improve our<br /> services.</p>
+      <div className='fixed z-40 w-full bg-white'>
+        <NavBar />
+      </div>
+      <div className='flex flex-col bg-[#F1F1F1] gap-5 pb-5 lg:pb-15 pt-5 lg:pt-10 mt-18'>
+        <div className='flex flex-col items-center px-5 lg:px-15 py-5 gap-3 lg:gap-5'>
+          <h1 className='text-4xl lg:text-5xl font-semibold'>Contact Us</h1>
+          <p className='lg:w-1/2 text-center text-[#6F7681] leading-6'>We're constantly pushing the boundaries of what's
+            possible and seeking new ways to improve our services.</p>
 
-          <div className='flex gap-50'>
+          <div className='flex flex-col-reverse lg:flex-row gap-10 lg:gap-50'>
             <div className='flex flex-col gap-5'>
-              <p className='text-xl font-semibold'>We're happy to discuss your project<br /> and answer any question</p>
-              <div className='grid grid-cols-2 gap-10'>
+              <p className='text-xl text-center lg:text-left lg:w-4/5 font-semibold'>We're happy to discuss your project and answer any question</p>
+              <div className='grid grid-cols-2 gap-7 lg:gap-10'>
 
                 <div className='flex flex-col'>
                   <div className='flex gap-2 items-center'>
                     <img src='/icons/call.png' alt='Call icon' />
                     <p className='text-lg font-semibold'>Toll Number</p>
                   </div>
-                  <p className='text-[#6F7681] text-sm'>+234 808 226 0759</p>
+                  <p className='text-[#6F7681] text-sm'><a href="tel:+2348082260759">+234 808 226 0759</a></p>
                 </div>
 
                 <div className='flex flex-col'>
@@ -31,7 +33,7 @@ const Contact = () => {
                     <img src='/icons/message.png' alt='Email icon' />
                     <p className='text-lg font-semibold'>Mail Address</p>
                   </div>
-                  <p className='text-[#6F7681] text-sm'>info@gmail.com</p>
+                  <p className='text-[#6F7681] text-sm'><a href="mailto:szterov@gmail.com">szterov@gmail.com</a></p>
                 </div>
 
                 <div className='flex flex-col'>
@@ -55,18 +57,22 @@ const Contact = () => {
             </div>
             <div className='flex flex-col bg-white p-5 rounded-md gap-2'>
               <p className='text-xl font-semibold'>Send Us Message</p>
-              <p className='text-[#6F7681] text-sm'>Feel free to fill up the form and our team will get back to you<br /> within 24 hours.</p>
+              <p className='text-[#6F7681] lg:w-10/11 text-sm'>Feel free to fill up the form and our team will get back to you within 24 hours.</p>
               <form>
-                <input type='text' placeholder='Name' className='bg-[#F1F1F1] p-3 mr-3 mb-3 rounded-xl basis-1/2' />
-                <input type='email' placeholder='Email' className='bg-[#F1F1F1] p-3 rounded-xl basis-1/2' /><br />
-                <textarea className='bg-[#F1F1F1] text-[#6F7681] w-full p-3 h-50 rounded-xl '>Message</textarea>
-                <Button name='Send Message' style={"bg-[#28D08A] text-white text-center mt-2"} />
+                <div className='flex gap-1 mb-3'>
+                  <input type='text' placeholder='Name' className='bg-[#F1F1F1] p-3 rounded-xl w-full' />
+                  <input type='email' placeholder='Email' className='bg-[#F1F1F1] p-3 rounded-xl w-full' /><br />
+                </div>
+                <textarea className='bg-[#F1F1F1] text-[#6F7681] w-full p-3 h-35 lg:h-50 rounded-xl '>Message</textarea>
+                <Button name='Send Message' style={"bg-black lg:hover:bg-[#28D08A] text-white text-center mt-2"} />
               </form>
             </div>
           </div>
         </div>
       </div>
-      <Footer />
+      <div className='z-50'>
+        <Footer />
+      </div>
     </div>
   )
 }

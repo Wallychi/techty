@@ -8,7 +8,7 @@ const Sub_Main = () => {
 
   return (
     <section className="flex flex-col font-space w-full">
-      <div className="flex items-center justify-center py-25">
+      <div className="flex items-center justify-center py-15 lg:py-25">
         <p className="text-center text-4xl lg:text-5xl font-extrabold">
           Empower your business with cutting-edge <span className="text-[#28D08A]">solutions</span></p>
       </div>

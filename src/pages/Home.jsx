@@ -13,7 +13,7 @@ const Home = () => {
 
     <div className='flex flex-col'>
       <div className='bg-[#F0F8FF] flex flex-col'>
-        <div className='fixed bg-[#F0F8FF] w-full z-50'>
+        <div className='fixed bg-[#F0F8FF] w-full z-40'>
           <NavBar />
         </div>
         <div className='mt-15'>
@@ -27,7 +27,9 @@ const Home = () => {
       <Solutions />
       <DataFetch />
       <Updates />
+      <div className='z-50'>
       <Footer />
+      </div>
     </div>
   )
 }
