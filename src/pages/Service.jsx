@@ -63,14 +63,14 @@ const Service = () => {
       <div className='flex flex-col bg-[#F0F8FF] items-center px-5 lg:px-15 mt-10 lg:mt-20 py-10 lg:py-15'>
         <h1 className='text-3xl lg:text-4xl font-bold text-center'>We have the best <span className='text-[#28D08A]'>pricing</span> package for you</h1>
         
-        <div className='flex flex-col lg:flex-row bg-white rounded-xl p-5 gap-10 lg:gap-0 lg:p-7 items-center w-full lg:w-11/12 mt-10'>
+        <div className='flex flex-col lg:flex-row bg-white rounded-xl p-3 gap-10 lg:gap-0 lg:p-7 items-center w-full lg:w-11/12 mt-10'>
           <div className='flex flex-col gap-5 lg:gap-7 lg:w-3/4'>
             <div className='flex flex-col gap-2 '>
               <p className='text-2xl lg:text-3xl font-semibold'>On Demand</p>
               <p className='text-[#495460]'>Get all these features when you are using as starter.</p>
             </div>
-            <div className='flex items-center justify-between lg:justify-normal lg:gap-40 text-[#4E4E4E]'>
-              <div className='flex flex-col gap-2'>
+            <div className='flex flex-col lg:flex-row lg:items-center gap-2 lg:gap-40 text-[#4E4E4E]'>
+              <div className='flex flex-col gap-1'>
                 <div className='flex gap-3'>
                   <img src='/icons/correct.png' />
                   <p>Unlimited projects</p>
@@ -88,7 +88,7 @@ const Service = () => {
 
 
               </div>
-              <div className='flex flex-col gap-2'>
+              <div className='flex flex-col gap-1'>
                 <div className='flex gap-3'>
                   <img src='/icons/incorrect.png' />
                   <p>Insights panel</p>
